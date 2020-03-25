@@ -6,7 +6,7 @@ h1{
     font-size: 50px;
 }
 .name-color{
-    color: orange;
+    color: tomato;
 }
 .left-width {
     width: 40%;
@@ -27,9 +27,12 @@ h1{
 .half-width img{
     width: 100%;
 }
+.one-third img{
+    width: 100%;
+}
 .top-banner
 {
-    background-image: url("images/top-banner.png");
+    background-image: url("images/biography-bg.png");
     background-repeat: no-repeat;
 }
 section
@@ -49,29 +52,32 @@ p{
     font-weight: 700;
 }
 .dream-area{
-    background-image: url("images/dream-bg.png");
+    background-image: url("images/biography-bg.png");
     background-repeat: no-repeat;
     background-position: right;
 }
-.experience-area{
-    background-image: url("images/exp-bg.png");
-    background-repeat: no-repeat;
-    background-position: left;
+.one-third
+{
+    width: 25%;
+    float: left;   
 }
-.single-experience{
-    box-shadow: 10px 10px 10px grey;
-    border-radius: 10px;
-    height: 85%;
+.latestW
+{
+    background-image: url("images/latest-work-bg.png");
 }
-#full-stack{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, lightSalmon, tomato);
-    border-image-slice: 1;
+.inCenter{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 17%;
 }
-#baby-dev{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, blue, cyan);
-    border-image-slice: 1;
+
+#padR{
+    padding-right: 5%;
+}
+#LworkCenter{
+    text-align: center;
+    padding-bottom: 5%;
 }
 footer p{
     text-align: center;
